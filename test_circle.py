@@ -8,7 +8,7 @@ class TestCircle(unittest.TestCase):
 
     def test_area_positive_radius(self):
         """Тест площади круга с положительным радиусом"""
-        self.assertAlmostEqual(area(5), math.pi * 5 * 5, places=10)
+        self.assertAlmostEqual(area(5), math.pi * 5 * 10, places=10)
         self.assertAlmostEqual(area(1), math.pi, places=10)
         self.assertAlmostEqual(area(10), math.pi * 100, places=10)
 
